@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
-import bg from "../../assets/img/background.png";
+import bg from "../../assets/img/background2.jpg";
 import fg from "../../assets/img/foreground.png";
 import fg2 from "../../assets/img/Paraglide.png";
 
@@ -22,8 +22,8 @@ const Home = () => {
       className={animationTriggered ? "perspective" : ""}
     >
       <div class="container">
-        <img src={bg} alt="mountain image" id="bg" />
-        <img src={fg} alt="man image" id="fg" />
+        <img src={bg} alt="mountain " id="bg" />
+        <img src={fg} alt="man " id="fg" />
         <img
           className={animationTriggered ? "animate-from-above" : ""}
           ref={ref}
@@ -35,7 +35,7 @@ const Home = () => {
             position: "absolute",
           }}
           src={fg2}
-          alt="paragliding image"
+          alt="paragliding "
           id="fg2"
         />
         <h1 id="header">Exploration</h1>

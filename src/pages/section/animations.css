@@ -1,4 +1,4 @@
-/* Add these animations according to your needs */
+
 @keyframes animateFromTopLeft {
   from {
     transform: translate(-100%, -100%) rotate(90deg) scale(1.2);
@@ -46,11 +46,9 @@
 @keyframes animateText {
   from {
     opacity: 0;
-    
   }
   to {
     opacity: 1;
-    
   }
 }
 
@@ -71,5 +69,6 @@
 }
 
 .animateContent {
-  animation: animateText 3s ease-in-out !important;
+  animation: animateText 3s ease-in-out ;
+  
 }

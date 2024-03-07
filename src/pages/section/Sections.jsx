@@ -57,9 +57,7 @@ const Section = ({
         </div>
         <p
           ref={refContent}
-          className={
-            animateLeftBottom ? "animateContent content" : "content"
-          }
+          className={animateContent ? "animateContent content" : "content"}
         >
           {content}
         </p>
